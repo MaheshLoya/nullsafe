@@ -1,0 +1,27 @@
+{
+  "dailiesApp": {
+    "userHoliday": {
+      "home": {
+        "title": "UserHolidays",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया User Holiday बनाएँ",
+        "createOrEditLabel": "User Holiday बनाएँ या संपादित करें",
+        "notFound": "No User Holidays found"
+      },
+      "created": "एक नया User Holiday [identifier: {{ param }}] तैयार है",
+      "updated": "एक User Holiday [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "User Holiday [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "User Holiday [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "User Holiday"
+      },
+      "id": "ID",
+      "userId": "User Id",
+      "date": "Date",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

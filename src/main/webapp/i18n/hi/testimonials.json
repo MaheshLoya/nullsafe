@@ -1,0 +1,29 @@
+{
+  "dailiesApp": {
+    "testimonials": {
+      "home": {
+        "title": "Testimonials",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Testimonials बनाएँ",
+        "createOrEditLabel": "Testimonials बनाएँ या संपादित करें",
+        "notFound": "No Testimonials found"
+      },
+      "created": "एक नया Testimonials [identifier: {{ param }}] तैयार है",
+      "updated": "एक Testimonials [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Testimonials [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Testimonials [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Testimonials"
+      },
+      "id": "ID",
+      "title": "Title",
+      "subTitle": "Sub Title",
+      "rating": "Rating",
+      "description": "Description",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

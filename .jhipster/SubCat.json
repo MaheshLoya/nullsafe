@@ -1,0 +1,52 @@
+{
+  "annotations": {
+    "changelogDate": "20240303073206"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "sub_cat",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "250"
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "Instant"
+    },
+    {
+      "documentation": "0 is Inactive, 1 is Active",
+      "fieldName": "isActive",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "SubCat",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "cat",
+      "otherEntityRelationshipName": "subCat",
+      "relationshipName": "cat",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    },
+    {
+      "otherEntityName": "product",
+      "otherEntityRelationshipName": "subCat",
+      "relationshipName": "product",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

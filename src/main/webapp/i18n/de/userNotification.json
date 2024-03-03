@@ -1,0 +1,27 @@
+{
+  "dailiesApp": {
+    "userNotification": {
+      "home": {
+        "title": "User Notifications",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "User Notification erstellen",
+        "createOrEditLabel": "User Notification erstellen oder bearbeiten",
+        "notFound": "Keine User Notifications gefunden"
+      },
+      "created": "User Notification erstellt mit ID {{ param }}",
+      "updated": "User Notification aktualisiert mit ID {{ param }}",
+      "deleted": "User Notification gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll User Notification {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "User Notification"
+      },
+      "id": "ID",
+      "title": "Title",
+      "body": "Body",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

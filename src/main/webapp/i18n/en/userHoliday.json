@@ -1,0 +1,27 @@
+{
+  "dailiesApp": {
+    "userHoliday": {
+      "home": {
+        "title": "User Holidays",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new User Holiday",
+        "createOrEditLabel": "Create or edit a User Holiday",
+        "notFound": "No User Holidays found"
+      },
+      "created": "A new User Holiday is created with identifier {{ param }}",
+      "updated": "A User Holiday is updated with identifier {{ param }}",
+      "deleted": "A User Holiday is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete User Holiday {{ id }}?"
+      },
+      "detail": {
+        "title": "User Holiday"
+      },
+      "id": "ID",
+      "userId": "User Id",
+      "date": "Date",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

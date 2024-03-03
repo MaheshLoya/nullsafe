@@ -1,0 +1,42 @@
+{
+  "dailiesApp": {
+    "users": {
+      "home": {
+        "title": "Users",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Users erstellen",
+        "createOrEditLabel": "Users erstellen oder bearbeiten",
+        "notFound": "Keine Users gefunden"
+      },
+      "created": "Users erstellt mit ID {{ param }}",
+      "updated": "Users aktualisiert mit ID {{ param }}",
+      "deleted": "Users gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Users {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Users"
+      },
+      "id": "ID",
+      "walletAmount": "Wallet Amount",
+      "email": "Email",
+      "phone": "Phone",
+      "emailVerifiedAt": "Email Verified At",
+      "password": "Password",
+      "rememberToken": "Remember Token",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "name": "Name",
+      "fcm": "Fcm",
+      "subscriptionAmount": "Subscription Amount",
+      "assignRole": "Assign Role",
+      "cart": "Cart",
+      "orderUserAssign": "Order User Assign",
+      "orders": "Orders",
+      "specificNotification": "Specific Notification",
+      "subscribedOrderDelivery": "Subscribed Order Delivery",
+      "subscribedOrders": "Subscribed Orders",
+      "transactions": "Transactions"
+    }
+  }
+}

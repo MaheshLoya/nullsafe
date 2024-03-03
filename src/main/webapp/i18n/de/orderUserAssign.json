@@ -1,0 +1,27 @@
+{
+  "dailiesApp": {
+    "orderUserAssign": {
+      "home": {
+        "title": "Order User Assigns",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Order User Assign erstellen",
+        "createOrEditLabel": "Order User Assign erstellen oder bearbeiten",
+        "notFound": "Keine Order User Assigns gefunden"
+      },
+      "created": "Order User Assign erstellt mit ID {{ param }}",
+      "updated": "Order User Assign aktualisiert mit ID {{ param }}",
+      "deleted": "Order User Assign gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Order User Assign {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Order User Assign"
+      },
+      "id": "ID",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "order": "Order",
+      "user": "User"
+    }
+  }
+}

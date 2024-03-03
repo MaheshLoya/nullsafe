@@ -1,0 +1,42 @@
+{
+  "annotations": {
+    "changelogDate": "20240303072206"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "order_user_assign",
+  "fields": [
+    {
+      "fieldName": "createdAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "Instant"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "OrderUserAssign",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "orders",
+      "otherEntityRelationshipName": "orderUserAssign",
+      "relationshipName": "order",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    },
+    {
+      "otherEntityField": "email",
+      "otherEntityName": "users",
+      "otherEntityRelationshipName": "orderUserAssign",
+      "relationshipName": "user",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

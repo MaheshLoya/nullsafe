@@ -1,0 +1,35 @@
+{
+  "dailiesApp": {
+    "files": {
+      "home": {
+        "title": "Files",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Files erstellen",
+        "createOrEditLabel": "Files erstellen oder bearbeiten",
+        "notFound": "Keine Files gefunden"
+      },
+      "created": "Files erstellt mit ID {{ param }}",
+      "updated": "Files aktualisiert mit ID {{ param }}",
+      "deleted": "Files gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Files {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Files"
+      },
+      "id": "ID",
+      "name": "Name",
+      "fileUrl": "File Url",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "deleted": "Deleted",
+      "fileFor": "File For",
+      "fileForId": "File For Id",
+      "fileCat": "File Cat",
+      "help": {
+        "fileFor": "1&amp;#61;admin.2&amp;#61;school table,3&amp;#61;user table, 4&amp;#61; emp tabel",
+        "fileCat": "1&amp;#61;profile image"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "dailiesApp": {
+    "subscribedOrderDelivery": {
+      "home": {
+        "title": "SubscribedOrderDeliveries",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Subscribed Order Delivery बनाएँ",
+        "createOrEditLabel": "Subscribed Order Delivery बनाएँ या संपादित करें",
+        "notFound": "No Subscribed Order Deliveries found"
+      },
+      "created": "एक नया Subscribed Order Delivery [identifier: {{ param }}] तैयार है",
+      "updated": "एक Subscribed Order Delivery [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Subscribed Order Delivery [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Subscribed Order Delivery [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Subscribed Order Delivery"
+      },
+      "id": "ID",
+      "date": "Date",
+      "paymentMode": "Payment Mode",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "order": "Order",
+      "entryUser": "Entry User",
+      "help": {
+        "paymentMode": "1&amp;#61; online, 2&amp;#61;offline"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "dailiesApp": {
+    "invoiceSetting": {
+      "home": {
+        "title": "InvoiceSettings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Invoice Setting बनाएँ",
+        "createOrEditLabel": "Invoice Setting बनाएँ या संपादित करें",
+        "notFound": "No Invoice Settings found"
+      },
+      "created": "एक नया Invoice Setting [identifier: {{ param }}] तैयार है",
+      "updated": "एक Invoice Setting [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Invoice Setting [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Invoice Setting [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Invoice Setting"
+      },
+      "id": "ID",
+      "title": "Title",
+      "value": "Value",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

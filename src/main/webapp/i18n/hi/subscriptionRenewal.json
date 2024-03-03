@@ -1,0 +1,36 @@
+{
+  "dailiesApp": {
+    "subscriptionRenewal": {
+      "home": {
+        "title": "SubscriptionRenewals",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Subscription Renewal बनाएँ",
+        "createOrEditLabel": "Subscription Renewal बनाएँ या संपादित करें",
+        "notFound": "No Subscription Renewals found"
+      },
+      "created": "एक नया Subscription Renewal [identifier: {{ param }}] तैयार है",
+      "updated": "एक Subscription Renewal [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Subscription Renewal [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Subscription Renewal [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Subscription Renewal"
+      },
+      "id": "ID",
+      "userId": "User Id",
+      "orderId": "Order Id",
+      "transactionId": "Transaction Id",
+      "renewalDate": "Renewal Date",
+      "paidRenewalAmount": "Paid Renewal Amount",
+      "status": "Status",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "help": {
+        "status": "0-pending,1-active,2-expired"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "dailiesApp": {
+    "transactions": {
+      "home": {
+        "title": "Transactions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Transactions बनाएँ",
+        "createOrEditLabel": "Transactions बनाएँ या संपादित करें",
+        "notFound": "No Transactions found"
+      },
+      "created": "एक नया Transactions [identifier: {{ param }}] तैयार है",
+      "updated": "एक Transactions [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Transactions [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Transactions [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Transactions"
+      },
+      "id": "ID",
+      "paymentId": "Payment Id",
+      "amount": "Amount",
+      "description": "Description",
+      "type": "Type",
+      "paymentMode": "Payment Mode",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "order": "Order",
+      "user": "User",
+      "orders": "Orders",
+      "subscribedOrders": "Subscribed Orders",
+      "help": {
+        "type": "1&amp;#61;credit 2&amp;#61;debited",
+        "paymentMode": "1&amp;#61;online,2&amp;#61;cash"
+      }
+    }
+  }
+}

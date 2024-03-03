@@ -1,0 +1,29 @@
+{
+  "dailiesApp": {
+    "failedJobs": {
+      "home": {
+        "title": "FailedJobs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Failed Jobs बनाएँ",
+        "createOrEditLabel": "Failed Jobs बनाएँ या संपादित करें",
+        "notFound": "No Failed Jobs found"
+      },
+      "created": "एक नया Failed Jobs [identifier: {{ param }}] तैयार है",
+      "updated": "एक Failed Jobs [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Failed Jobs [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Failed Jobs [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Failed Jobs"
+      },
+      "id": "ID",
+      "uuid": "Uuid",
+      "connection": "Connection",
+      "queue": "Queue",
+      "payload": "Payload",
+      "exception": "Exception",
+      "failedAt": "Failed At"
+    }
+  }
+}

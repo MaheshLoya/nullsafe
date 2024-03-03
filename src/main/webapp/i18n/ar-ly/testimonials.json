@@ -1,0 +1,29 @@
+{
+  "dailiesApp": {
+    "testimonials": {
+      "home": {
+        "title": "Testimonials",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Testimonials",
+        "createOrEditLabel": "Create or edit a Testimonials",
+        "notFound": "No Testimonials found"
+      },
+      "created": "A new Testimonials is created with identifier {{ param }}",
+      "updated": "A Testimonials is updated with identifier {{ param }}",
+      "deleted": "A Testimonials is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Testimonials {{ id }}?"
+      },
+      "detail": {
+        "title": "Testimonials"
+      },
+      "id": "ID",
+      "title": "Title",
+      "subTitle": "Sub Title",
+      "rating": "Rating",
+      "description": "Description",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

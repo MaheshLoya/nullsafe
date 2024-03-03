@@ -1,0 +1,31 @@
+{
+  "dailiesApp": {
+    "webPages": {
+      "home": {
+        "title": "WebPages",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Web Pages बनाएँ",
+        "createOrEditLabel": "Web Pages बनाएँ या संपादित करें",
+        "notFound": "No Web Pages found"
+      },
+      "created": "एक नया Web Pages [identifier: {{ param }}] तैयार है",
+      "updated": "एक Web Pages [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Web Pages [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Web Pages [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Web Pages"
+      },
+      "id": "ID",
+      "pageId": "Page Id",
+      "title": "Title",
+      "body": "Body",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "help": {
+        "pageId": "1&amp;#61;about us,2&amp;#61;privacy,3&amp;#61;terms"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "dailiesApp": {
+    "allowPincode": {
+      "home": {
+        "title": "Allow Pincodes",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Allow Pincode erstellen",
+        "createOrEditLabel": "Allow Pincode erstellen oder bearbeiten",
+        "notFound": "Keine Allow Pincodes gefunden"
+      },
+      "created": "Allow Pincode erstellt mit ID {{ param }}",
+      "updated": "Allow Pincode aktualisiert mit ID {{ param }}",
+      "deleted": "Allow Pincode gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Allow Pincode {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Allow Pincode"
+      },
+      "id": "ID",
+      "pinCode": "Pin Code",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

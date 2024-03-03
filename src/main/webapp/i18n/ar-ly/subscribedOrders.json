@@ -1,0 +1,52 @@
+{
+  "dailiesApp": {
+    "subscribedOrders": {
+      "home": {
+        "title": "Subscribed Orders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Subscribed Orders",
+        "createOrEditLabel": "Create or edit a Subscribed Orders",
+        "notFound": "No Subscribed Orders found"
+      },
+      "created": "A new Subscribed Orders is created with identifier {{ param }}",
+      "updated": "A Subscribed Orders is updated with identifier {{ param }}",
+      "deleted": "A Subscribed Orders is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Subscribed Orders {{ id }}?"
+      },
+      "detail": {
+        "title": "Subscribed Orders"
+      },
+      "id": "ID",
+      "paymentType": "Payment Type",
+      "orderAmount": "Order Amount",
+      "subscriptionBalanceAmount": "Subscription Balance Amount",
+      "price": "Price",
+      "mrp": "Mrp",
+      "tax": "Tax",
+      "qty": "Qty",
+      "offerId": "Offer Id",
+      "selectedDaysForWeekly": "Selected Days For Weekly",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "lastRenewalDate": "Last Renewal Date",
+      "subscriptionType": "Subscription Type",
+      "approvalStatus": "Approval Status",
+      "orderStatus": "Order Status",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "createdBy": "Created By",
+      "updatedBy": "Updated By",
+      "user": "User",
+      "transaction": "Transaction",
+      "product": "Product",
+      "address": "Address",
+      "help": {
+        "paymentType": "1&amp;#61; prepaid-online,2&amp;#61;prepaid-cash, 3&amp;#61;postpaid-online,4&amp;#61;postpaid-cash",
+        "subscriptionType": "1&amp;#61;daily,2&amp;#61;weekly,3&amp;#61;monthly,4&amp;#61;alternative days",
+        "approvalStatus": "0&amp;#61;pending, 1&amp;#61;confirmed, 2&amp;#61;canceled",
+        "orderStatus": "0&amp;#61;active,1&amp;#61;stop"
+      }
+    }
+  }
+}

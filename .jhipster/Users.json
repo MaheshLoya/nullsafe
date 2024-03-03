@@ -1,0 +1,130 @@
+{
+  "annotations": {
+    "changelogDate": "20240303074106"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "users",
+  "fields": [
+    {
+      "fieldName": "walletAmount",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique", "maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "phone",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique", "maxlength"],
+      "fieldValidateRulesMaxlength": "250"
+    },
+    {
+      "fieldName": "emailVerifiedAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "password",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "rememberToken",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "100"
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "250"
+    },
+    {
+      "fieldName": "fcm",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "65535"
+    },
+    {
+      "fieldName": "subscriptionAmount",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "Users",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "assignRole",
+      "otherEntityRelationshipName": "user",
+      "relationshipName": "assignRole",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "cart",
+      "otherEntityRelationshipName": "user",
+      "relationshipName": "cart",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "orderUserAssign",
+      "otherEntityRelationshipName": "user",
+      "relationshipName": "orderUserAssign",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "orders",
+      "otherEntityRelationshipName": "user",
+      "relationshipName": "orders",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "specificNotification",
+      "otherEntityRelationshipName": "user",
+      "relationshipName": "specificNotification",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "subscribedOrderDelivery",
+      "otherEntityRelationshipName": "entryUser",
+      "relationshipName": "subscribedOrderDelivery",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "subscribedOrders",
+      "otherEntityRelationshipName": "user",
+      "relationshipName": "subscribedOrders",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "transactions",
+      "otherEntityRelationshipName": "user",
+      "relationshipName": "transactions",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

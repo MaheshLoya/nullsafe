@@ -1,0 +1,32 @@
+{
+  "dailiesApp": {
+    "subscribedOrderDelivery": {
+      "home": {
+        "title": "Subscribed Order Deliveries",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Subscribed Order Delivery erstellen",
+        "createOrEditLabel": "Subscribed Order Delivery erstellen oder bearbeiten",
+        "notFound": "Keine Subscribed Order Deliveries gefunden"
+      },
+      "created": "Subscribed Order Delivery erstellt mit ID {{ param }}",
+      "updated": "Subscribed Order Delivery aktualisiert mit ID {{ param }}",
+      "deleted": "Subscribed Order Delivery gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Subscribed Order Delivery {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Subscribed Order Delivery"
+      },
+      "id": "ID",
+      "date": "Date",
+      "paymentMode": "Payment Mode",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "order": "Order",
+      "entryUser": "Entry User",
+      "help": {
+        "paymentMode": "1&amp;#61; online, 2&amp;#61;offline"
+      }
+    }
+  }
+}

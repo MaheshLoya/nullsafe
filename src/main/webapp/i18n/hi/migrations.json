@@ -1,0 +1,25 @@
+{
+  "dailiesApp": {
+    "migrations": {
+      "home": {
+        "title": "Migrations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Migrations बनाएँ",
+        "createOrEditLabel": "Migrations बनाएँ या संपादित करें",
+        "notFound": "No Migrations found"
+      },
+      "created": "एक नया Migrations [identifier: {{ param }}] तैयार है",
+      "updated": "एक Migrations [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Migrations [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Migrations [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Migrations"
+      },
+      "id": "Id",
+      "migration": "Migration",
+      "batch": "Batch"
+    }
+  }
+}

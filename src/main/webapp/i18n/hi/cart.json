@@ -1,0 +1,33 @@
+{
+  "dailiesApp": {
+    "cart": {
+      "home": {
+        "title": "Carts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Cart बनाएँ",
+        "createOrEditLabel": "Cart बनाएँ या संपादित करें",
+        "notFound": "No Carts found"
+      },
+      "created": "एक नया Cart [identifier: {{ param }}] तैयार है",
+      "updated": "एक Cart [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Cart [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Cart [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Cart"
+      },
+      "id": "ID",
+      "qty": "Qty",
+      "price": "Price",
+      "totalPrice": "Total Price",
+      "mrp": "Mrp",
+      "tax": "Tax",
+      "qtyText": "Qty Text",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "product": "Product",
+      "user": "User"
+    }
+  }
+}

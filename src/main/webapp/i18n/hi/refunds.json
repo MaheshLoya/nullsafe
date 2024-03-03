@@ -1,0 +1,33 @@
+{
+  "dailiesApp": {
+    "refunds": {
+      "home": {
+        "title": "Refunds",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Refunds बनाएँ",
+        "createOrEditLabel": "Refunds बनाएँ या संपादित करें",
+        "notFound": "No Refunds found"
+      },
+      "created": "एक नया Refunds [identifier: {{ param }}] तैयार है",
+      "updated": "एक Refunds [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Refunds [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Refunds [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Refunds"
+      },
+      "id": "Id",
+      "orderId": "Order Id",
+      "transactionId": "Transaction Id",
+      "razorpayRefundId": "Razorpay Refund Id",
+      "razorpayPaymentId": "Razorpay Payment Id",
+      "amount": "Amount",
+      "currency": "Currency",
+      "status": "Status",
+      "createdBy": "Created By",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "dailiesApp": {
+    "specificNotification": {
+      "home": {
+        "title": "SpecificNotifications",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Specific Notification बनाएँ",
+        "createOrEditLabel": "Specific Notification बनाएँ या संपादित करें",
+        "notFound": "No Specific Notifications found"
+      },
+      "created": "एक नया Specific Notification [identifier: {{ param }}] तैयार है",
+      "updated": "एक Specific Notification [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Specific Notification [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Specific Notification [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Specific Notification"
+      },
+      "id": "ID",
+      "title": "Title",
+      "body": "Body",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "user": "User"
+    }
+  }
+}

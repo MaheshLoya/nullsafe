@@ -1,0 +1,31 @@
+{
+  "dailiesApp": {
+    "webPages": {
+      "home": {
+        "title": "Web Pages",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Web Pages",
+        "createOrEditLabel": "Create or edit a Web Pages",
+        "notFound": "No Web Pages found"
+      },
+      "created": "A new Web Pages is created with identifier {{ param }}",
+      "updated": "A Web Pages is updated with identifier {{ param }}",
+      "deleted": "A Web Pages is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Web Pages {{ id }}?"
+      },
+      "detail": {
+        "title": "Web Pages"
+      },
+      "id": "ID",
+      "pageId": "Page Id",
+      "title": "Title",
+      "body": "Body",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "help": {
+        "pageId": "1&amp;#61;about us,2&amp;#61;privacy,3&amp;#61;terms"
+      }
+    }
+  }
+}
