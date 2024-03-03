@@ -1,0 +1,29 @@
+{
+  "dailiesApp": {
+    "failedJobs": {
+      "home": {
+        "title": "Failed Jobs",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Failed Jobs erstellen",
+        "createOrEditLabel": "Failed Jobs erstellen oder bearbeiten",
+        "notFound": "Keine Failed Jobs gefunden"
+      },
+      "created": "Failed Jobs erstellt mit ID {{ param }}",
+      "updated": "Failed Jobs aktualisiert mit ID {{ param }}",
+      "deleted": "Failed Jobs gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Failed Jobs {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Failed Jobs"
+      },
+      "id": "ID",
+      "uuid": "Uuid",
+      "connection": "Connection",
+      "queue": "Queue",
+      "payload": "Payload",
+      "exception": "Exception",
+      "failedAt": "Failed At"
+    }
+  }
+}

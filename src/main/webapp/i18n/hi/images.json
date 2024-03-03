@@ -1,0 +1,32 @@
+{
+  "dailiesApp": {
+    "images": {
+      "home": {
+        "title": "Images",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Images बनाएँ",
+        "createOrEditLabel": "Images बनाएँ या संपादित करें",
+        "notFound": "No Images found"
+      },
+      "created": "एक नया Images [identifier: {{ param }}] तैयार है",
+      "updated": "एक Images [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Images [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Images [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Images"
+      },
+      "id": "ID",
+      "tableName": "Table Name",
+      "tableId": "Table Id",
+      "imageType": "Image Type",
+      "image": "Image",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "help": {
+        "imageType": "1&amp;#61; profile image, 2&amp;#61;slider image"
+      }
+    }
+  }
+}

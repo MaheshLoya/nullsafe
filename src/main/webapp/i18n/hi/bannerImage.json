@@ -1,0 +1,30 @@
+{
+  "dailiesApp": {
+    "bannerImage": {
+      "home": {
+        "title": "BannerImages",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Banner Image बनाएँ",
+        "createOrEditLabel": "Banner Image बनाएँ या संपादित करें",
+        "notFound": "No Banner Images found"
+      },
+      "created": "एक नया Banner Image [identifier: {{ param }}] तैयार है",
+      "updated": "एक Banner Image [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Banner Image [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Banner Image [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Banner Image"
+      },
+      "id": "ID",
+      "image": "Image",
+      "imageType": "Image Type",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "help": {
+        "imageType": "1&amp;#61;mobile"
+      }
+    }
+  }
+}

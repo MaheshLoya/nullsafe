@@ -1,0 +1,33 @@
+{
+  "dailiesApp": {
+    "refunds": {
+      "home": {
+        "title": "Refunds",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Refunds erstellen",
+        "createOrEditLabel": "Refunds erstellen oder bearbeiten",
+        "notFound": "Keine Refunds gefunden"
+      },
+      "created": "Refunds erstellt mit ID {{ param }}",
+      "updated": "Refunds aktualisiert mit ID {{ param }}",
+      "deleted": "Refunds gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Refunds {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Refunds"
+      },
+      "id": "Id",
+      "orderId": "Order Id",
+      "transactionId": "Transaction Id",
+      "razorpayRefundId": "Razorpay Refund Id",
+      "razorpayPaymentId": "Razorpay Payment Id",
+      "amount": "Amount",
+      "currency": "Currency",
+      "status": "Status",
+      "createdBy": "Created By",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

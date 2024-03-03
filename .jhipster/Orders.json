@@ -1,0 +1,139 @@
+{
+  "annotations": {
+    "changelogDate": "20240303072306"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "orders",
+  "fields": [
+    {
+      "documentation": "1&#61; prepaid,2&#61;pos, 3&#61;pay now,4&#61;cod&#13;&#10;",
+      "fieldName": "orderType",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "orderAmount",
+      "fieldType": "Double",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Double",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "mrp",
+      "fieldType": "Double",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "tax",
+      "fieldType": "Double",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "qty",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "selectedDaysForWeekly",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "65535"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "documentation": "1&#61;daliy,2&#61;weekly,3&#61;monthly,4&#61;alternative days&#13;&#10;",
+      "fieldName": "subscriptionType",
+      "fieldType": "Integer"
+    },
+    {
+      "documentation": "1&#61;confirmed 1&#61;confirmed, 0&#61;pending,2&#61;canceled",
+      "fieldName": "status",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "documentation": "1&#61;delivered",
+      "fieldName": "deliveryStatus",
+      "fieldType": "Integer"
+    },
+    {
+      "documentation": "0&#61;active,1&#61;stop",
+      "fieldName": "orderStatus",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "Instant"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "Orders",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityField": "email",
+      "otherEntityName": "users",
+      "otherEntityRelationshipName": "orders",
+      "relationshipName": "user",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    },
+    {
+      "otherEntityName": "transactions",
+      "otherEntityRelationshipName": "orders",
+      "relationshipName": "trasation",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "product",
+      "otherEntityRelationshipName": "orders",
+      "relationshipName": "product",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    },
+    {
+      "otherEntityName": "userAddress",
+      "otherEntityRelationshipName": "orders",
+      "relationshipName": "address",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    },
+    {
+      "otherEntityName": "orderUserAssign",
+      "otherEntityRelationshipName": "order",
+      "relationshipName": "orderUserAssign",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "subscribedOrderDelivery",
+      "otherEntityRelationshipName": "order",
+      "relationshipName": "subscribedOrderDelivery",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "transactions",
+      "otherEntityRelationshipName": "order",
+      "relationshipName": "transactions",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

@@ -1,0 +1,31 @@
+{
+  "dailiesApp": {
+    "personalAccessTokens": {
+      "home": {
+        "title": "PersonalAccessTokens",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Personal Access Tokens बनाएँ",
+        "createOrEditLabel": "Personal Access Tokens बनाएँ या संपादित करें",
+        "notFound": "No Personal Access Tokens found"
+      },
+      "created": "एक नया Personal Access Tokens [identifier: {{ param }}] तैयार है",
+      "updated": "एक Personal Access Tokens [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Personal Access Tokens [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Personal Access Tokens [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Personal Access Tokens"
+      },
+      "id": "ID",
+      "tokenableType": "Tokenable Type",
+      "tokenableId": "Tokenable Id",
+      "name": "Name",
+      "token": "Token",
+      "abilities": "Abilities",
+      "lastUsedAt": "Last Used At",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

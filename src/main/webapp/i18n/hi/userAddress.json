@@ -1,0 +1,39 @@
+{
+  "dailiesApp": {
+    "userAddress": {
+      "home": {
+        "title": "UserAddresses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया User Address बनाएँ",
+        "createOrEditLabel": "User Address बनाएँ या संपादित करें",
+        "notFound": "No User Addresses found"
+      },
+      "created": "एक नया User Address [identifier: {{ param }}] तैयार है",
+      "updated": "एक User Address [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "User Address [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "User Address [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "User Address"
+      },
+      "id": "ID",
+      "userId": "User Id",
+      "name": "Name",
+      "sPhone": "S Phone",
+      "flatNo": "Flat No",
+      "apartmentName": "Apartment Name",
+      "area": "Area",
+      "landmark": "Landmark",
+      "city": "City",
+      "pincode": "Pincode",
+      "lat": "Lat",
+      "lng": "Lng",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "isActive": "Is Active",
+      "orders": "Orders",
+      "subscribedOrders": "Subscribed Orders"
+    }
+  }
+}

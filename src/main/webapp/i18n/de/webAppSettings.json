@@ -1,0 +1,27 @@
+{
+  "dailiesApp": {
+    "webAppSettings": {
+      "home": {
+        "title": "Web App Settings",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Web App Settings erstellen",
+        "createOrEditLabel": "Web App Settings erstellen oder bearbeiten",
+        "notFound": "Keine Web App Settings gefunden"
+      },
+      "created": "Web App Settings erstellt mit ID {{ param }}",
+      "updated": "Web App Settings aktualisiert mit ID {{ param }}",
+      "deleted": "Web App Settings gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Web App Settings {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Web App Settings"
+      },
+      "id": "Id",
+      "title": "Title",
+      "value": "Value",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

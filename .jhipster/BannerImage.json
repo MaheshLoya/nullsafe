@@ -1,0 +1,36 @@
+{
+  "annotations": {
+    "changelogDate": "20240303071306"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "banner_image",
+  "fields": [
+    {
+      "fieldName": "image",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "65535"
+    },
+    {
+      "documentation": "1&#61;mobile",
+      "fieldName": "imageType",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "Instant"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "BannerImage",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

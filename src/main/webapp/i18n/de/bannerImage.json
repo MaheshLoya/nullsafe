@@ -1,0 +1,30 @@
+{
+  "dailiesApp": {
+    "bannerImage": {
+      "home": {
+        "title": "Banner Images",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Banner Image erstellen",
+        "createOrEditLabel": "Banner Image erstellen oder bearbeiten",
+        "notFound": "Keine Banner Images gefunden"
+      },
+      "created": "Banner Image erstellt mit ID {{ param }}",
+      "updated": "Banner Image aktualisiert mit ID {{ param }}",
+      "deleted": "Banner Image gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Banner Image {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Banner Image"
+      },
+      "id": "ID",
+      "image": "Image",
+      "imageType": "Image Type",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "help": {
+        "imageType": "1&amp;#61;mobile"
+      }
+    }
+  }
+}

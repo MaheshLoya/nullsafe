@@ -1,0 +1,27 @@
+{
+  "dailiesApp": {
+    "orderUserAssign": {
+      "home": {
+        "title": "OrderUserAssigns",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Order User Assign बनाएँ",
+        "createOrEditLabel": "Order User Assign बनाएँ या संपादित करें",
+        "notFound": "No Order User Assigns found"
+      },
+      "created": "एक नया Order User Assign [identifier: {{ param }}] तैयार है",
+      "updated": "एक Order User Assign [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Order User Assign [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Order User Assign [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Order User Assign"
+      },
+      "id": "ID",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "order": "Order",
+      "user": "User"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "dailiesApp": {
+    "subCat": {
+      "home": {
+        "title": "SubCats",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Sub Cat बनाएँ",
+        "createOrEditLabel": "Sub Cat बनाएँ या संपादित करें",
+        "notFound": "No Sub Cats found"
+      },
+      "created": "एक नया Sub Cat [identifier: {{ param }}] तैयार है",
+      "updated": "एक Sub Cat [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Sub Cat [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Sub Cat [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Sub Cat"
+      },
+      "id": "ID",
+      "title": "Title",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "isActive": "Is Active",
+      "cat": "Cat",
+      "product": "Product",
+      "help": {
+        "isActive": "0 is Inactive, 1 is Active"
+      }
+    }
+  }
+}

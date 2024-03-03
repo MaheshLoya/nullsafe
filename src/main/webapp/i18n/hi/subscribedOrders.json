@@ -1,0 +1,52 @@
+{
+  "dailiesApp": {
+    "subscribedOrders": {
+      "home": {
+        "title": "SubscribedOrders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Subscribed Orders बनाएँ",
+        "createOrEditLabel": "Subscribed Orders बनाएँ या संपादित करें",
+        "notFound": "No Subscribed Orders found"
+      },
+      "created": "एक नया Subscribed Orders [identifier: {{ param }}] तैयार है",
+      "updated": "एक Subscribed Orders [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Subscribed Orders [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Subscribed Orders [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Subscribed Orders"
+      },
+      "id": "ID",
+      "paymentType": "Payment Type",
+      "orderAmount": "Order Amount",
+      "subscriptionBalanceAmount": "Subscription Balance Amount",
+      "price": "Price",
+      "mrp": "Mrp",
+      "tax": "Tax",
+      "qty": "Qty",
+      "offerId": "Offer Id",
+      "selectedDaysForWeekly": "Selected Days For Weekly",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "lastRenewalDate": "Last Renewal Date",
+      "subscriptionType": "Subscription Type",
+      "approvalStatus": "Approval Status",
+      "orderStatus": "Order Status",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "createdBy": "Created By",
+      "updatedBy": "Updated By",
+      "user": "User",
+      "transaction": "Transaction",
+      "product": "Product",
+      "address": "Address",
+      "help": {
+        "paymentType": "1&amp;#61; prepaid-online,2&amp;#61;prepaid-cash, 3&amp;#61;postpaid-online,4&amp;#61;postpaid-cash",
+        "subscriptionType": "1&amp;#61;daily,2&amp;#61;weekly,3&amp;#61;monthly,4&amp;#61;alternative days",
+        "approvalStatus": "0&amp;#61;pending, 1&amp;#61;confirmed, 2&amp;#61;canceled",
+        "orderStatus": "0&amp;#61;active,1&amp;#61;stop"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "dailiesApp": {
+    "transactions": {
+      "home": {
+        "title": "Transactions",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Transactions erstellen",
+        "createOrEditLabel": "Transactions erstellen oder bearbeiten",
+        "notFound": "Keine Transactions gefunden"
+      },
+      "created": "Transactions erstellt mit ID {{ param }}",
+      "updated": "Transactions aktualisiert mit ID {{ param }}",
+      "deleted": "Transactions gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Transactions {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Transactions"
+      },
+      "id": "ID",
+      "paymentId": "Payment Id",
+      "amount": "Amount",
+      "description": "Description",
+      "type": "Type",
+      "paymentMode": "Payment Mode",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "order": "Order",
+      "user": "User",
+      "orders": "Orders",
+      "subscribedOrders": "Subscribed Orders",
+      "help": {
+        "type": "1&amp;#61;credit 2&amp;#61;debited",
+        "paymentMode": "1&amp;#61;online,2&amp;#61;cash"
+      }
+    }
+  }
+}

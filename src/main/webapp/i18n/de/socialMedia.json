@@ -1,0 +1,28 @@
+{
+  "dailiesApp": {
+    "socialMedia": {
+      "home": {
+        "title": "Social Medias",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Social Media erstellen",
+        "createOrEditLabel": "Social Media erstellen oder bearbeiten",
+        "notFound": "Keine Social Medias gefunden"
+      },
+      "created": "Social Media erstellt mit ID {{ param }}",
+      "updated": "Social Media aktualisiert mit ID {{ param }}",
+      "deleted": "Social Media gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Social Media {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Social Media"
+      },
+      "id": "ID",
+      "title": "Title",
+      "image": "Image",
+      "url": "Url",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

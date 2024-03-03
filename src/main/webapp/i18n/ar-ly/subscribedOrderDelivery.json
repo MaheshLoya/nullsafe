@@ -1,0 +1,32 @@
+{
+  "dailiesApp": {
+    "subscribedOrderDelivery": {
+      "home": {
+        "title": "Subscribed Order Deliveries",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Subscribed Order Delivery",
+        "createOrEditLabel": "Create or edit a Subscribed Order Delivery",
+        "notFound": "No Subscribed Order Deliveries found"
+      },
+      "created": "A new Subscribed Order Delivery is created with identifier {{ param }}",
+      "updated": "A Subscribed Order Delivery is updated with identifier {{ param }}",
+      "deleted": "A Subscribed Order Delivery is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Subscribed Order Delivery {{ id }}?"
+      },
+      "detail": {
+        "title": "Subscribed Order Delivery"
+      },
+      "id": "ID",
+      "date": "Date",
+      "paymentMode": "Payment Mode",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "order": "Order",
+      "entryUser": "Entry User",
+      "help": {
+        "paymentMode": "1&amp;#61; online, 2&amp;#61;offline"
+      }
+    }
+  }
+}

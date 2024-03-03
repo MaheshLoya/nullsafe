@@ -1,0 +1,44 @@
+{
+  "annotations": {
+    "changelogDate": "20240303071506"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "cat",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "250"
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "Instant"
+    },
+    {
+      "documentation": "0 is Inactive, 1 is Active",
+      "fieldName": "isActive",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "Cat",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "subCat",
+      "otherEntityRelationshipName": "cat",
+      "relationshipName": "subCat",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

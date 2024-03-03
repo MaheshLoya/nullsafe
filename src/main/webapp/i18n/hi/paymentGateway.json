@@ -1,0 +1,29 @@
+{
+  "dailiesApp": {
+    "paymentGateway": {
+      "home": {
+        "title": "PaymentGateways",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Payment Gateway बनाएँ",
+        "createOrEditLabel": "Payment Gateway बनाएँ या संपादित करें",
+        "notFound": "No Payment Gateways found"
+      },
+      "created": "एक नया Payment Gateway [identifier: {{ param }}] तैयार है",
+      "updated": "एक Payment Gateway [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Payment Gateway [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Payment Gateway [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Payment Gateway"
+      },
+      "id": "ID",
+      "active": "Active",
+      "title": "Title",
+      "keyId": "Key Id",
+      "secretId": "Secret Id",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

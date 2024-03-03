@@ -1,0 +1,26 @@
+{
+  "dailiesApp": {
+    "availableDeliveryLocation": {
+      "home": {
+        "title": "AvailableDeliveryLocations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Available Delivery Location बनाएँ",
+        "createOrEditLabel": "Available Delivery Location बनाएँ या संपादित करें",
+        "notFound": "No Available Delivery Locations found"
+      },
+      "created": "एक नया Available Delivery Location [identifier: {{ param }}] तैयार है",
+      "updated": "एक Available Delivery Location [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Available Delivery Location [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Available Delivery Location [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Available Delivery Location"
+      },
+      "id": "ID",
+      "title": "Title",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

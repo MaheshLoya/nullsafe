@@ -1,0 +1,28 @@
+{
+  "dailiesApp": {
+    "socialMedia": {
+      "home": {
+        "title": "SocialMedias",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Social Media बनाएँ",
+        "createOrEditLabel": "Social Media बनाएँ या संपादित करें",
+        "notFound": "No Social Medias found"
+      },
+      "created": "एक नया Social Media [identifier: {{ param }}] तैयार है",
+      "updated": "एक Social Media [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Social Media [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Social Media [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Social Media"
+      },
+      "id": "ID",
+      "title": "Title",
+      "image": "Image",
+      "url": "Url",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

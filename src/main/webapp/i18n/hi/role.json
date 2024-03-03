@@ -1,0 +1,28 @@
+{
+  "dailiesApp": {
+    "role": {
+      "home": {
+        "title": "Roles",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Role बनाएँ",
+        "createOrEditLabel": "Role बनाएँ या संपादित करें",
+        "notFound": "No Roles found"
+      },
+      "created": "एक नया Role [identifier: {{ param }}] तैयार है",
+      "updated": "एक Role [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Role [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Role [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Role"
+      },
+      "id": "ID",
+      "title": "Title",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "deleted": "Deleted",
+      "assignRole": "Assign Role"
+    }
+  }
+}

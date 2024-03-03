@@ -1,0 +1,143 @@
+{
+  "annotations": {
+    "changelogDate": "20240303073406"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "subscribed_orders",
+  "fields": [
+    {
+      "documentation": "1&#61; prepaid-online,2&#61;prepaid-cash, 3&#61;postpaid-online,4&#61;postpaid-cash",
+      "fieldName": "paymentType",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "orderAmount",
+      "fieldType": "Float",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "subscriptionBalanceAmount",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Float",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "mrp",
+      "fieldType": "Float",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "tax",
+      "fieldType": "Float",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "qty",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "offerId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "selectedDaysForWeekly",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "65535"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "lastRenewalDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "documentation": "1&#61;daily,2&#61;weekly,3&#61;monthly,4&#61;alternative days",
+      "fieldName": "subscriptionType",
+      "fieldType": "Integer"
+    },
+    {
+      "documentation": "0&#61;pending, 1&#61;confirmed, 2&#61;canceled",
+      "fieldName": "approvalStatus",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "documentation": "0&#61;active,1&#61;stop",
+      "fieldName": "orderStatus",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "SubscribedOrders",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityField": "email",
+      "otherEntityName": "users",
+      "otherEntityRelationshipName": "subscribedOrders",
+      "relationshipName": "user",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    },
+    {
+      "otherEntityName": "transactions",
+      "otherEntityRelationshipName": "subscribedOrders",
+      "relationshipName": "transaction",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "product",
+      "otherEntityRelationshipName": "subscribedOrders",
+      "relationshipName": "product",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    },
+    {
+      "otherEntityName": "userAddress",
+      "otherEntityRelationshipName": "subscribedOrders",
+      "relationshipName": "address",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

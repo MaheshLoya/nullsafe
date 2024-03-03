@@ -1,0 +1,27 @@
+{
+  "dailiesApp": {
+    "assignRole": {
+      "home": {
+        "title": "Assign Roles",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Assign Role erstellen",
+        "createOrEditLabel": "Assign Role erstellen oder bearbeiten",
+        "notFound": "Keine Assign Roles gefunden"
+      },
+      "created": "Assign Role erstellt mit ID {{ param }}",
+      "updated": "Assign Role aktualisiert mit ID {{ param }}",
+      "deleted": "Assign Role gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Assign Role {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Assign Role"
+      },
+      "id": "ID",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "user": "User",
+      "role": "Role"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "dailiesApp": {
+    "failedJobs": {
+      "home": {
+        "title": "Failed Jobs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Failed Jobs",
+        "createOrEditLabel": "Create or edit a Failed Jobs",
+        "notFound": "No Failed Jobs found"
+      },
+      "created": "A new Failed Jobs is created with identifier {{ param }}",
+      "updated": "A Failed Jobs is updated with identifier {{ param }}",
+      "deleted": "A Failed Jobs is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Failed Jobs {{ id }}?"
+      },
+      "detail": {
+        "title": "Failed Jobs"
+      },
+      "id": "ID",
+      "uuid": "Uuid",
+      "connection": "Connection",
+      "queue": "Queue",
+      "payload": "Payload",
+      "exception": "Exception",
+      "failedAt": "Failed At"
+    }
+  }
+}

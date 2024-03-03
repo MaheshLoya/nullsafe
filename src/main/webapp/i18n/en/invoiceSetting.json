@@ -1,0 +1,27 @@
+{
+  "dailiesApp": {
+    "invoiceSetting": {
+      "home": {
+        "title": "Invoice Settings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Invoice Setting",
+        "createOrEditLabel": "Create or edit a Invoice Setting",
+        "notFound": "No Invoice Settings found"
+      },
+      "created": "A new Invoice Setting is created with identifier {{ param }}",
+      "updated": "A Invoice Setting is updated with identifier {{ param }}",
+      "deleted": "A Invoice Setting is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Invoice Setting {{ id }}?"
+      },
+      "detail": {
+        "title": "Invoice Setting"
+      },
+      "id": "ID",
+      "title": "Title",
+      "value": "Value",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

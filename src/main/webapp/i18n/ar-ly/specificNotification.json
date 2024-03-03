@@ -1,0 +1,28 @@
+{
+  "dailiesApp": {
+    "specificNotification": {
+      "home": {
+        "title": "Specific Notifications",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Specific Notification",
+        "createOrEditLabel": "Create or edit a Specific Notification",
+        "notFound": "No Specific Notifications found"
+      },
+      "created": "A new Specific Notification is created with identifier {{ param }}",
+      "updated": "A Specific Notification is updated with identifier {{ param }}",
+      "deleted": "A Specific Notification is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Specific Notification {{ id }}?"
+      },
+      "detail": {
+        "title": "Specific Notification"
+      },
+      "id": "ID",
+      "title": "Title",
+      "body": "Body",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "user": "User"
+    }
+  }
+}

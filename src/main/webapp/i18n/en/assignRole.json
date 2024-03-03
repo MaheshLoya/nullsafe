@@ -1,0 +1,27 @@
+{
+  "dailiesApp": {
+    "assignRole": {
+      "home": {
+        "title": "Assign Roles",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Assign Role",
+        "createOrEditLabel": "Create or edit a Assign Role",
+        "notFound": "No Assign Roles found"
+      },
+      "created": "A new Assign Role is created with identifier {{ param }}",
+      "updated": "A Assign Role is updated with identifier {{ param }}",
+      "deleted": "A Assign Role is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Assign Role {{ id }}?"
+      },
+      "detail": {
+        "title": "Assign Role"
+      },
+      "id": "ID",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "user": "User",
+      "role": "Role"
+    }
+  }
+}

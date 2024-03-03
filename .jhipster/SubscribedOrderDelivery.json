@@ -1,0 +1,51 @@
+{
+  "annotations": {
+    "changelogDate": "20240303073306"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "subscribed_order_delivery",
+  "fields": [
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate"
+    },
+    {
+      "documentation": "1&#61; online, 2&#61;offline",
+      "fieldName": "paymentMode",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "Instant"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "SubscribedOrderDelivery",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "orders",
+      "otherEntityRelationshipName": "subscribedOrderDelivery",
+      "relationshipName": "order",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    },
+    {
+      "otherEntityField": "email",
+      "otherEntityName": "users",
+      "otherEntityRelationshipName": "subscribedOrderDelivery",
+      "relationshipName": "entryUser",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": "required"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

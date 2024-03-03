@@ -1,0 +1,44 @@
+{
+  "dailiesApp": {
+    "product": {
+      "home": {
+        "title": "Products",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Product erstellen",
+        "createOrEditLabel": "Product erstellen oder bearbeiten",
+        "notFound": "Keine Products gefunden"
+      },
+      "created": "Product erstellt mit ID {{ param }}",
+      "updated": "Product aktualisiert mit ID {{ param }}",
+      "deleted": "Product gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Product {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Product"
+      },
+      "id": "ID",
+      "title": "Title",
+      "qtyText": "Qty Text",
+      "stockQty": "Stock Qty",
+      "price": "Price",
+      "tax": "Tax",
+      "mrp": "Mrp",
+      "offerText": "Offer Text",
+      "description": "Description",
+      "disclaimer": "Disclaimer",
+      "subscription": "Subscription",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "isActive": "Is Active",
+      "subCat": "Sub Cat",
+      "cart": "Cart",
+      "orders": "Orders",
+      "subscribedOrders": "Subscribed Orders",
+      "help": {
+        "subscription": "1&amp;#61; true ,0&amp;#61;false",
+        "isActive": "0 is Inactive, 1 is Active"
+      }
+    }
+  }
+}

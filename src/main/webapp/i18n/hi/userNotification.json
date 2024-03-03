@@ -1,0 +1,27 @@
+{
+  "dailiesApp": {
+    "userNotification": {
+      "home": {
+        "title": "UserNotifications",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया User Notification बनाएँ",
+        "createOrEditLabel": "User Notification बनाएँ या संपादित करें",
+        "notFound": "No User Notifications found"
+      },
+      "created": "एक नया User Notification [identifier: {{ param }}] तैयार है",
+      "updated": "एक User Notification [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "User Notification [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "User Notification [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "User Notification"
+      },
+      "id": "ID",
+      "title": "Title",
+      "body": "Body",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

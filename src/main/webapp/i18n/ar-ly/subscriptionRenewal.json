@@ -1,0 +1,36 @@
+{
+  "dailiesApp": {
+    "subscriptionRenewal": {
+      "home": {
+        "title": "Subscription Renewals",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Subscription Renewal",
+        "createOrEditLabel": "Create or edit a Subscription Renewal",
+        "notFound": "No Subscription Renewals found"
+      },
+      "created": "A new Subscription Renewal is created with identifier {{ param }}",
+      "updated": "A Subscription Renewal is updated with identifier {{ param }}",
+      "deleted": "A Subscription Renewal is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Subscription Renewal {{ id }}?"
+      },
+      "detail": {
+        "title": "Subscription Renewal"
+      },
+      "id": "ID",
+      "userId": "User Id",
+      "orderId": "Order Id",
+      "transactionId": "Transaction Id",
+      "renewalDate": "Renewal Date",
+      "paidRenewalAmount": "Paid Renewal Amount",
+      "status": "Status",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "help": {
+        "status": "0-pending,1-active,2-expired"
+      }
+    }
+  }
+}

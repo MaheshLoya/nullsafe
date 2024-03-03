@@ -1,0 +1,26 @@
+{
+  "dailiesApp": {
+    "allowPincode": {
+      "home": {
+        "title": "AllowPincodes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Allow Pincode बनाएँ",
+        "createOrEditLabel": "Allow Pincode बनाएँ या संपादित करें",
+        "notFound": "No Allow Pincodes found"
+      },
+      "created": "एक नया Allow Pincode [identifier: {{ param }}] तैयार है",
+      "updated": "एक Allow Pincode [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Allow Pincode [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Allow Pincode [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Allow Pincode"
+      },
+      "id": "ID",
+      "pinCode": "Pin Code",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

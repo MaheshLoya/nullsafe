@@ -1,0 +1,39 @@
+{
+  "dailiesApp": {
+    "userAddress": {
+      "home": {
+        "title": "User Addresses",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "User Address erstellen",
+        "createOrEditLabel": "User Address erstellen oder bearbeiten",
+        "notFound": "Keine User Addresses gefunden"
+      },
+      "created": "User Address erstellt mit ID {{ param }}",
+      "updated": "User Address aktualisiert mit ID {{ param }}",
+      "deleted": "User Address gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll User Address {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "User Address"
+      },
+      "id": "ID",
+      "userId": "User Id",
+      "name": "Name",
+      "sPhone": "S Phone",
+      "flatNo": "Flat No",
+      "apartmentName": "Apartment Name",
+      "area": "Area",
+      "landmark": "Landmark",
+      "city": "City",
+      "pincode": "Pincode",
+      "lat": "Lat",
+      "lng": "Lng",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "isActive": "Is Active",
+      "orders": "Orders",
+      "subscribedOrders": "Subscribed Orders"
+    }
+  }
+}

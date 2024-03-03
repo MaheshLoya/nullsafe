@@ -1,0 +1,27 @@
+{
+  "dailiesApp": {
+    "webAppSettings": {
+      "home": {
+        "title": "WebAppSettings",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Web App Settings बनाएँ",
+        "createOrEditLabel": "Web App Settings बनाएँ या संपादित करें",
+        "notFound": "No Web App Settings found"
+      },
+      "created": "एक नया Web App Settings [identifier: {{ param }}] तैयार है",
+      "updated": "एक Web App Settings [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Web App Settings [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Web App Settings [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Web App Settings"
+      },
+      "id": "Id",
+      "title": "Title",
+      "value": "Value",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

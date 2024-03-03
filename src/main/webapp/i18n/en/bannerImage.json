@@ -1,0 +1,30 @@
+{
+  "dailiesApp": {
+    "bannerImage": {
+      "home": {
+        "title": "Banner Images",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Banner Image",
+        "createOrEditLabel": "Create or edit a Banner Image",
+        "notFound": "No Banner Images found"
+      },
+      "created": "A new Banner Image is created with identifier {{ param }}",
+      "updated": "A Banner Image is updated with identifier {{ param }}",
+      "deleted": "A Banner Image is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Banner Image {{ id }}?"
+      },
+      "detail": {
+        "title": "Banner Image"
+      },
+      "id": "ID",
+      "image": "Image",
+      "imageType": "Image Type",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "help": {
+        "imageType": "1&amp;#61;mobile"
+      }
+    }
+  }
+}

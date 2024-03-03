@@ -1,0 +1,25 @@
+{
+  "dailiesApp": {
+    "migrations": {
+      "home": {
+        "title": "Migrations",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Migrations erstellen",
+        "createOrEditLabel": "Migrations erstellen oder bearbeiten",
+        "notFound": "Keine Migrations gefunden"
+      },
+      "created": "Migrations erstellt mit ID {{ param }}",
+      "updated": "Migrations aktualisiert mit ID {{ param }}",
+      "deleted": "Migrations gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Migrations {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Migrations"
+      },
+      "id": "Id",
+      "migration": "Migration",
+      "batch": "Batch"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "dailiesApp": {
+    "personalAccessTokens": {
+      "home": {
+        "title": "Personal Access Tokens",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Personal Access Tokens erstellen",
+        "createOrEditLabel": "Personal Access Tokens erstellen oder bearbeiten",
+        "notFound": "Keine Personal Access Tokens gefunden"
+      },
+      "created": "Personal Access Tokens erstellt mit ID {{ param }}",
+      "updated": "Personal Access Tokens aktualisiert mit ID {{ param }}",
+      "deleted": "Personal Access Tokens gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Personal Access Tokens {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Personal Access Tokens"
+      },
+      "id": "ID",
+      "tokenableType": "Tokenable Type",
+      "tokenableId": "Tokenable Id",
+      "name": "Name",
+      "token": "Token",
+      "abilities": "Abilities",
+      "lastUsedAt": "Last Used At",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

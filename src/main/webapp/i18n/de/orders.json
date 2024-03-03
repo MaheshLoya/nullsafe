@@ -1,0 +1,51 @@
+{
+  "dailiesApp": {
+    "orders": {
+      "home": {
+        "title": "Orders",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Orders erstellen",
+        "createOrEditLabel": "Orders erstellen oder bearbeiten",
+        "notFound": "Keine Orders gefunden"
+      },
+      "created": "Orders erstellt mit ID {{ param }}",
+      "updated": "Orders aktualisiert mit ID {{ param }}",
+      "deleted": "Orders gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Orders {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Orders"
+      },
+      "id": "ID",
+      "orderType": "Order Type",
+      "orderAmount": "Order Amount",
+      "price": "Price",
+      "mrp": "Mrp",
+      "tax": "Tax",
+      "qty": "Qty",
+      "selectedDaysForWeekly": "Selected Days For Weekly",
+      "startDate": "Start Date",
+      "subscriptionType": "Subscription Type",
+      "status": "Status",
+      "deliveryStatus": "Delivery Status",
+      "orderStatus": "Order Status",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "user": "User",
+      "trasation": "Trasation",
+      "product": "Product",
+      "address": "Address",
+      "orderUserAssign": "Order User Assign",
+      "subscribedOrderDelivery": "Subscribed Order Delivery",
+      "transactions": "Transactions",
+      "help": {
+        "orderType": "1&amp;#61; prepaid,2&amp;#61;pos, 3&amp;#61;pay now,4&amp;#61;cod&amp;#13;&amp;#10;",
+        "subscriptionType": "1&amp;#61;daliy,2&amp;#61;weekly,3&amp;#61;monthly,4&amp;#61;alternative days&amp;#13;&amp;#10;",
+        "status": "1&amp;#61;confirmed 1&amp;#61;confirmed, 0&amp;#61;pending,2&amp;#61;canceled",
+        "deliveryStatus": "1&amp;#61;delivered",
+        "orderStatus": "0&amp;#61;active,1&amp;#61;stop"
+      }
+    }
+  }
+}
