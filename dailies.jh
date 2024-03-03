@@ -1,0 +1,441 @@
+entity AllowPincode(allow_pincode) {
+    pinCode Integer required,
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity AppSettings(app_settings) {
+    settingId Integer required,
+    title String required maxlength(250),
+    value String required maxlength(250),
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity AssignRole(assign_role) {
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity AvailableDeliveryLocation(available_delivery_location) {
+    title String required maxlength(250),
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity BannerImage(banner_image) {
+    image String required maxlength(65535),
+    /** 1&#61;mobile */
+    imageType Boolean required,
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity Cart(cart) {
+    qty Integer required,
+    price Double required,
+    totalPrice Double required,
+    mrp Double required,
+    tax Double required,
+    qtyText String required maxlength(250),
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity Cat(cat) {
+    title String required maxlength(250),
+    createdAt Instant,
+    updatedAt Instant,
+    /** 0 is Inactive, 1 is Active */
+    isActive Boolean required
+}
+
+entity City(city) {
+    title String required maxlength(250),
+    deleted Boolean required
+}
+
+entity FailedJobs(failed_jobs) {
+    uuid String required unique maxlength(255),
+    connection String required maxlength(65535),
+    queue String required maxlength(65535),
+    payload TextBlob required,
+    exception TextBlob required,
+    failedAt Instant required
+}
+
+entity Files(files) {
+    name String required maxlength(250),
+    fileUrl String required maxlength(65535),
+    createdAt Instant,
+    updatedAt Instant,
+    deleted Boolean required,
+    /** 1&#61;admin.2&#61;school table,3&#61;user table, 4&#61; emp tabel */
+    fileFor Integer required,
+    fileForId Integer required,
+    /** 1&#61;profile image */
+    fileCat Boolean required
+}
+
+entity Images(images) {
+    tableName String required maxlength(250),
+    tableId Long required,
+    /** 1&#61; profile image, 2&#61;slider image */
+    imageType Boolean required,
+    image String required maxlength(65535),
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity InvoiceSetting(invoice_setting) {
+    title String required maxlength(250),
+    value String required maxlength(65535),
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity Migrations(migrations) {
+    id Integer required,
+    migration String required maxlength(255),
+    batch Integer required
+}
+
+entity OrderUserAssign(order_user_assign) {
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity Orders(orders) {
+    /** 1&#61; prepaid,2&#61;pos, 3&#61;pay now,4&#61;cod&#13;&#10; */
+    orderType Integer,
+    orderAmount Double required,
+    price Double required,
+    mrp Double required,
+    tax Double required,
+    qty Integer,
+    selectedDaysForWeekly String maxlength(65535),
+    startDate LocalDate,
+    /** 1&#61;daliy,2&#61;weekly,3&#61;monthly,4&#61;alternative days&#13;&#10; */
+    subscriptionType Integer,
+    /** 1&#61;confirmed 1&#61;confirmed, 0&#61;pending,2&#61;canceled */
+    status Integer required,
+    /** 1&#61;delivered  */
+    deliveryStatus Integer,
+    /** 0&#61;active,1&#61;stop */
+    orderStatus Boolean required,
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity PasswordResets(password_resets) {
+    email String required maxlength(255),
+    token String required maxlength(255),
+    createdAt Instant
+}
+
+entity PaymentGateway(payment_gateway) {
+    active Boolean required,
+    title String required maxlength(250),
+    keyId String required maxlength(65535),
+    secretId String required maxlength(65535),
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity PersonalAccessTokens(personal_access_tokens) {
+    tokenableType String required maxlength(255),
+    tokenableId Long required,
+    name String required maxlength(255),
+    token String required unique maxlength(64),
+    abilities String maxlength(65535),
+    lastUsedAt Instant,
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity Product(product) {
+    title String required maxlength(250),
+    qtyText String required maxlength(250),
+    stockQty Long,
+    price Double required,
+    tax Double required,
+    mrp Double required,
+    offerText String maxlength(250),
+    description String maxlength(65535),
+    disclaimer String maxlength(65535),
+    /** 1&#61; true ,0&#61;false */
+    subscription Boolean required,
+    createdAt Instant,
+    updatedAt Instant,
+    /** 0 is Inactive, 1 is Active */
+    isActive Boolean required
+}
+
+entity Refunds(refunds) {
+    id Integer required,
+    orderId Integer,
+    transactionId String maxlength(255),
+    razorpayRefundId String maxlength(255),
+    razorpayPaymentId String maxlength(255),
+    amount BigDecimal,
+    currency String maxlength(3),
+    status String maxlength(50),
+    createdBy String maxlength(255),
+    createdAt Instant required,
+    updatedAt Instant required
+}
+
+entity Role(role) {
+    title String required maxlength(250),
+    createdAt Instant,
+    updatedAt Instant,
+    deleted Boolean required
+}
+
+entity SocialMedia(social_media) {
+    title String required maxlength(250),
+    image String required maxlength(65535),
+    url String required maxlength(65535),
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity SpecificNotification(specific_notification) {
+    title String required maxlength(250),
+    body String required maxlength(250),
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity SubCat(sub_cat) {
+    title String required maxlength(250),
+    createdAt Instant,
+    updatedAt Instant,
+    /** 0 is Inactive, 1 is Active */
+    isActive Boolean required
+}
+
+entity SubscribedOrderDelivery(subscribed_order_delivery) {
+    date LocalDate,
+    /** 1&#61; online, 2&#61;offline */
+    paymentMode Integer,
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity SubscribedOrders(subscribed_orders) {
+    /** 1&#61; prepaid-online,2&#61;prepaid-cash, 3&#61;postpaid-online,4&#61;postpaid-cash */
+    paymentType Integer,
+    orderAmount Float required,
+    subscriptionBalanceAmount Float,
+    price Float required,
+    mrp Float required,
+    tax Float required,
+    qty Integer,
+    offerId Integer,
+    selectedDaysForWeekly String maxlength(65535),
+    startDate LocalDate required,
+    endDate LocalDate required,
+    lastRenewalDate LocalDate,
+    /** 1&#61;daily,2&#61;weekly,3&#61;monthly,4&#61;alternative days */
+    subscriptionType Integer,
+    /** 0&#61;pending, 1&#61;confirmed, 2&#61;canceled */
+    approvalStatus Integer required,
+    /** 0&#61;active,1&#61;stop */
+    orderStatus Boolean required,
+    createdAt Instant,
+    updatedAt Instant,
+    createdBy String maxlength(255),
+    updatedBy String maxlength(255)
+}
+
+entity SubscriptionRenewal(subscription_renewal) {
+    userId Integer required,
+    orderId Long required,
+    transactionId Long,
+    renewalDate LocalDate required,
+    paidRenewalAmount Float required,
+    /** 0-pending,1-active,2-expired */
+    status Boolean required,
+    startDate LocalDate required,
+    endDate LocalDate required,
+    createdAt Instant required,
+    updatedAt Instant required
+}
+
+entity Testimonials(testimonials) {
+    title String required maxlength(250),
+    subTitle String required maxlength(250),
+    rating Integer required,
+    description String required maxlength(65535),
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity Transactions(transactions) {
+    paymentId String maxlength(65535),
+    amount Double required,
+    description String maxlength(65535),
+    /** 1&#61;credit 2&#61;debited */
+    type Integer,
+    /** 1&#61;online,2&#61;cash */
+    paymentMode Integer required,
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity UserAddress(user_address) {
+    userId Long required,
+    name String required maxlength(250),
+    sPhone String required maxlength(250),
+    flatNo String maxlength(250),
+    apartmentName String maxlength(250),
+    area String required maxlength(250),
+    landmark String required maxlength(250),
+    city String required maxlength(250),
+    pincode Integer required,
+    lat Double,
+    lng Double,
+    createdAt Instant,
+    updatedAt Instant,
+    isActive Boolean
+}
+
+entity UserHoliday(user_holiday) {
+    userId Long required,
+    date LocalDate required,
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity UserNotification(user_notification) {
+    title String required maxlength(250),
+    body String required maxlength(250),
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity Users(users) {
+    walletAmount Double,
+    email String unique maxlength(255),
+    phone String unique maxlength(250),
+    emailVerifiedAt Instant,
+    password String maxlength(255),
+    rememberToken String maxlength(100),
+    createdAt Instant,
+    updatedAt Instant,
+    name String required maxlength(250),
+    fcm String maxlength(65535),
+    subscriptionAmount Integer required
+}
+
+entity WebAppSettings(web_app_settings) {
+    id Integer required,
+    title String required maxlength(250),
+    value String required maxlength(65535),
+    createdAt Instant,
+    updatedAt Instant
+}
+
+entity WebPages(web_pages) {
+    /** 1&#61;about us,2&#61;privacy,3&#61;terms */
+    pageId Integer required,
+    title String required maxlength(250),
+    body String required maxlength(65535),
+    createdAt Instant,
+    updatedAt Instant
+}
+
+// Relations
+relationship ManyToOne {
+    AssignRole{user(email) required} to Users{assignRole}
+}
+
+relationship ManyToOne {
+    AssignRole{role required} to Role{assignRole}
+}
+
+relationship ManyToOne {
+    Cart{product required} to Product{cart}
+}
+
+relationship ManyToOne {
+    Cart{user(email) required} to Users{cart}
+}
+
+relationship ManyToOne {
+    OrderUserAssign{order required} to Orders{orderUserAssign}
+}
+
+relationship ManyToOne {
+    OrderUserAssign{user(email) required} to Users{orderUserAssign}
+}
+
+relationship ManyToOne {
+    Orders{user(email) required} to Users{orders}
+}
+
+relationship ManyToOne {
+    Orders{trasation} to Transactions{orders}
+}
+
+relationship ManyToOne {
+    Orders{product required} to Product{orders}
+}
+
+relationship ManyToOne {
+    Orders{address required} to UserAddress{orders}
+}
+
+relationship ManyToOne {
+    Product{subCat required} to SubCat{product}
+}
+
+relationship ManyToOne {
+    SpecificNotification{user(email) required} to Users{specificNotification}
+}
+
+relationship ManyToOne {
+    SubCat{cat required} to Cat{subCat}
+}
+
+relationship ManyToOne {
+    SubscribedOrderDelivery{order required} to Orders{subscribedOrderDelivery}
+}
+
+relationship ManyToOne {
+    SubscribedOrderDelivery{entryUser(email) required} to Users{subscribedOrderDelivery}
+}
+
+relationship ManyToOne {
+    SubscribedOrders{user(email) required} to Users{subscribedOrders}
+}
+
+relationship ManyToOne {
+    SubscribedOrders{transaction} to Transactions{subscribedOrders}
+}
+
+relationship ManyToOne {
+    SubscribedOrders{product required} to Product{subscribedOrders}
+}
+
+relationship ManyToOne {
+    SubscribedOrders{address required} to UserAddress{subscribedOrders}
+}
+
+relationship ManyToOne {
+    Transactions{order} to Orders{transactions}
+}
+
+relationship ManyToOne {
+    Transactions{user(email) required} to Users{transactions}
+}
+
+// Options
+service * with serviceClass
+
+paginate * with pagination
+
+dto * with mapstruct
+
+filter *
